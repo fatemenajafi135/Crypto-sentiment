@@ -1,6 +1,7 @@
-# Custom
+# Custom ignore
 data/
 models/
+test_file/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
