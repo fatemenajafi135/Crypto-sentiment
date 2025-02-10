@@ -25,7 +25,7 @@ def startup_event():
     app.state.model = load_model()
     app.state.tokenizer = load_tokenizer()
     end_time = time.time()
-    print(f'Model loaded in {end_time - start_time}')
+    print(f'Model loaded in {int(end_time - start_time)} seconds.')
 
 
 def get_model(request: Request):
@@ -97,4 +97,4 @@ async def predict_aspect_based_sentiment_file(
 
 @app.get('/')
 def root():
-    return {"response": 'Welcome to Sentiment Analysis on crypto Tweets!'}
+    return {"response": 'Welcome to Sentiment Analysis on Crypto Tweets!'}
