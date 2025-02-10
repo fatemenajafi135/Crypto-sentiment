@@ -18,3 +18,4 @@ pydantic_core==2.27.2
 fastapi
 uvicorn
 python-dotenv
+python-multipart
