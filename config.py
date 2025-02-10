@@ -1,9 +1,8 @@
 # LM
 # -----------------------------------
 BASE_MODEL = "ElKulako/cryptobert"
-MODEL_NAME = "ElKulako/cryptobert"
+MODEL_NAME = "fatemenajafi135/crypto-tweet-sentiment"
 NUM_LABEL = 3
-SAVE_MODEL_PATH = ''
 
 
 # LLM
