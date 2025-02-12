@@ -24,7 +24,7 @@ After reviewing the dataset, certain columns such as `is_crypto_tweet` and `acco
 
 Text Length Distribution:
 
-![Text Length Distribution](./images/text_len_distro.png)
+![Text Length Distribution](./images/text_lenght.png)
 
 
 ### Cleaning:
