@@ -267,7 +267,7 @@ While the correlations observed do not show a strong relationship between the se
 
 - Model Deployment: Deploying the model is only the first step in a much larger process. To gain more meaningful insights, thorough backtesting is essential. This will help us understand how the model performs across different market conditions and over time. Backtesting also allows us to assess whether the model can accurately generate signals for short, mid, or long-term trading strategies, ensuring that the sentiment data is used effectively.
 
-- Tweet Frequency: While an increase in tweet frequency is important and indicates market excitement, it is crucial to note that this spike often reflects emotions toward price changes rather than acting as a signal for those changes. In other words, the sentiment is typically a result of price movements, not a predictor of them. Therefore, while frequent tweets may indicate heightened market activity, they should not be viewed as an independent signal of future price shifts.
+- Tweet Frequency: While an increase in tweet frequency is important and indicates market excitement, it is crucial to note that this spike often reflects emotions toward price changes rather than acting as a signal for those changes. In other words, the sentiment is typically a result of price movements, not a predictor of them. Therefore, while a spike in frequent tweets may indicate heightened market activity, they should not be viewed as an independent signal of future price shifts.
 
 
 
