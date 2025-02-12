@@ -1,8 +1,17 @@
 # Detailed Report on this project
 
+
+- Key Insights from EDA and Cleaning
+- Challenges Encountered and Mitigation Strategies
+- Improving Model Accuracy
+- Challenging Tweets
+- Relationships and Trends Between Sentiment Index and ETH Prices
+- Tradeoffs for a 5-Second Per-Tweet Prediction Limit
+- Recommendations for Real-World Market Analysis
+
 ## Key Insights from EDA and Cleaning  
 
-## Data Characteristics
+### Data Characteristics
 The dataset contains 2,224 records with 7 features:  
 - `id`  
 - `text`  
@@ -68,7 +77,7 @@ Since emojis play a crucial role in crypto sentiment (e.g., 🔥, 🚀, 📈), t
 | 2 (Bullish) | 9 |  
 | 0 (Bearish) | 1 |  
 
-## Cleaning  
+### Cleaning  
 
 Usual text-cleaning steps (e.g., **removing stopwords**) were not applied, as they could alter sentiment interpretation. Additionally, since a transformer-based model was used, stopword removal was unnecessary.  
 
@@ -90,7 +99,7 @@ Eth WordCloud:
 
 ![ETH WordCloud](./images/wordcloud-eth.png)  
 
-## Augmentation  
+### Augmentation  
 
 Class imbalance can bias the model toward the majority class, leading to **skewed predictions**. To address this, **GPT-4o-mini** was used for **paraphrasing-based augmentation**:  
 
@@ -100,7 +109,7 @@ Class imbalance can bias the model toward the majority class, leading to **skewe
 
 **Data leakage prevention**: Augmentation was applied only to the training set (after dataset splitting).  
 
-### Post-Augmentation Dataset Balance  
+Post-Augmentation Dataset Balance:
 
 | Label | Count |  
 |-------|------|  
