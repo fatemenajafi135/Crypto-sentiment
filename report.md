@@ -46,6 +46,7 @@ Text Length per Sentiment Label
 
 
 Text length frequency:
+
 ![Text length frequency](./images/text_lenght.png)
 
 
